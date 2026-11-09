@@ -1,0 +1,14 @@
+# Huang-lab path convention. Source this file on the authorized analysis machine.
+# No data, output, secret, or credential belongs inside the code repository.
+export DIR0="${DIR0:-/mnt/d}"
+export SCRIPT_ROOT="${SCRIPT_ROOT:-$DIR0/scripts}"
+export HELPER_DIR="${HELPER_DIR:-$SCRIPT_ROOT/0f}"
+export PHEDIR="${PHEDIR:-$DIR0/data/ukb/phe}"
+export UKB_OUT="${UKB_OUT:-$DIR0/analysis/ukb}"
+export ALL_RDS="${ALL_RDS:-$PHEDIR/Rdata/all.rds}"
+export PHEWAS_RDS="${PHEWAS_RDS:-$PHEDIR/Rdata/PheWAS.rds}"
+export METABOLITE_RDS="${METABOLITE_RDS:-$PHEDIR/Rdata/met.rds}"
+export PROTEIN_RDS="${PROTEIN_RDS:-$PHEDIR/Rdata/prot.rds}"
+export BIRTH_RESULTS="${BIRTH_RESULTS:-$UKB_OUT/birth_order/results}"
+export BIRTH_FROZEN="${BIRTH_FROZEN:-$UKB_OUT/birth_order/frozen}"
+export BIRTH_SOURCE="${BIRTH_SOURCE:-$UKB_OUT/birth_order/source}"

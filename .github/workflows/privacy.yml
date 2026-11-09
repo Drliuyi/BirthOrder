@@ -1,0 +1,10 @@
+name: Code-only privacy check
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  privacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -B privacy_check.py --tracked

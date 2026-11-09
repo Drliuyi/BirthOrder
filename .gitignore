@@ -1,0 +1,25 @@
+# Deny by default. The privacy check additionally inspects every committed blob.
+*
+!/*.R
+!/*.py
+!/*.sh
+!/*.md
+!/.gitignore
+!/analysis/
+!/analysis/*.R
+!/analysis/*.py
+!/analysis/*.c
+!/figures/
+!/figures/*.R
+!/figures/*.py
+!/reference/
+!/reference/*.json
+!/reference/diseases.csv
+!/reference/sex_restrictions.csv
+!/reference/mediators.csv
+!/reference/table1.csv
+!/hooks/
+!/hooks/pre-commit
+!/.github/
+!/.github/workflows/
+!/.github/workflows/privacy.yml

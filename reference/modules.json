@@ -1,0 +1,2084 @@
+[
+  {
+    "file": "analysis/Figure2_phewas_source.R",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "input_snapshot",
+      "stored_version",
+      "write_new_csv",
+      "state",
+      "run_registered_models",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure2_sibship.R",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "s8_make_sample",
+      "s8_saved_plan",
+      "s8_fit_one",
+      "s8_main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 2
+  },
+  {
+    "file": "analysis/Figure3_subgroups.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v3_tdi_cuts",
+      "v3_strata",
+      "v2_match_prepare",
+      "v3_matched_siblings",
+      "v3_continuous",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_adjustment.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "assert",
+      "num",
+      "hash",
+      "filehash",
+      "idhash",
+      "csv",
+      "js",
+      "log_event",
+      "read_signed",
+      "safe_input",
+      "edu_tokens",
+      "education",
+      "status_factor",
+      "days",
+      "complete",
+      "fit_one",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 3
+  },
+  {
+    "file": "analysis/Figure3_incident_sources.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ip_source_ids",
+      "ip_source_num",
+      "ip_source_read",
+      "ip_source_manifest",
+      "ip_source_pair",
+      "ip_source_scan",
+      "ip_history_union",
+      "ip_source_exposure_audit",
+      "ip_prepare",
+      "sc_uk_map",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 8
+  },
+  {
+    "file": "analysis/Figure3_cox.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ip_cox_assert",
+      "ip_cox_capture",
+      "ip_cox_dates",
+      "ip_cox_bad_date",
+      "ip_cox_calendar2",
+      "ip_riskset",
+      "ip_cox_blank_result",
+      "ip_cox_ph_rows",
+      "ip_cox_coefficient_rows",
+      "ip_fit",
+      "sc_ph_classify",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_standardization.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "assert",
+      "filehash",
+      "norm",
+      "near",
+      "safe_rds",
+      "normal_ci",
+      "standardize",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 3
+  },
+  {
+    "file": "analysis/Figure3_prediction_curves.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "assert",
+      "filehash",
+      "idhash",
+      "csv",
+      "js",
+      "near",
+      "log_event",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 3
+  },
+  {
+    "file": "analysis/Supplementary_risk_factors.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bl2_capture",
+      "bl2_assert",
+      "bl2_status_factor",
+      "bl2_formula",
+      "bl2_contrasts",
+      "bl2_sample",
+      "bl2_global_template",
+      "bl2_add_sample_metadata",
+      "bl2_sample_diagnostics",
+      "bl2_assert_design",
+      "bl2_fit_bmi",
+      "bl2_numerical_scale",
+      "bl2_backmap",
+      "bl2_hessian_diagnostics",
+      "bl2_multinom_diagnostics",
+      "bl2_contrast_template",
+      "bl2_fit_multinomial",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_clinical.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_cont_value",
+      "bi_cont_flag",
+      "bi_cont_save",
+      "bi_cont_analyses",
+      "bi_cont_workers",
+      "bi_cont_map",
+      "bi_cont_mapping_columns",
+      "bi_cont_source_dialect",
+      "bi_cont_read",
+      "bi_cont_numbers",
+      "bi_cont_dictionary",
+      "bi_cont_gate",
+      "bi_cont_lookup",
+      "bi_cont_rule",
+      "bi_cont_technical",
+      "bi_cont_load",
+      "bi_cont_prepare",
+      "bi_cont_good",
+      "bi_cont_reference",
+      "bi_cont_empty_result",
+      "bi_cont_fit_one",
+      "bi_cont_sensitivity",
+      "bi_cont_selection",
+      "bi_feature_stage",
+      "bi_stage_glycaemia",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_metabolites.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_stage_nmr",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_proteins.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_stage_olink",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_CMR.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_stage_imaging",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_shapes.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": "run_in_private_context",
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure2_LASI.R",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "s8_cap",
+      "s8_sample",
+      "s8_adjust",
+      "s8_bind",
+      "s8_release",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_common.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "%||%",
+      "bi_assert",
+      "bi_stamp",
+      "bi_num",
+      "bi_hash",
+      "bi_read_table",
+      "bi_bind",
+      "bi_capture",
+      "bi_log",
+      "bi_public",
+      "bi_save",
+      "bi_checkpoint",
+      "bi_resource_guard",
+      "bi_skip",
+      "bi_module_config",
+      "bi_formula",
+      "bi_sample",
+      "bi_fit",
+      "bi_interaction",
+      "bi_adjust",
+      "bi_education",
+      "bi_cohort",
+      "bi_outcomes",
+      "bi_data",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_diabetes.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ev_dm_contract_example",
+      "ev_dm_medication_dictionary",
+      "ev_dm_num",
+      "ev_dm_columns",
+      "ev_dm_array",
+      "ev_dm_touchscreen_insulin",
+      "ev_diabetes_baseline",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_diabetes_prior.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ev_diabetes_prior_specs",
+      "ev_diabetes_prior_contract_example",
+      "ev_diabetes_prior_date",
+      "ev_diabetes_prior_sources",
+      "ev_diabetes_prior_tests",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_exact.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_isa_codes",
+      "bi_isa_exposures",
+      "bi_isa_ids",
+      "bi_isa_dates",
+      "bi_isa_normalize",
+      "bi_isa_canonical_hash",
+      "bi_isa_map",
+      "bi_isa_pair",
+      "bi_isa_field_summary",
+      "bi_isa_extract",
+      "bi_isa_candidate_adapter",
+      "bi_isa_config_template",
+      "bi_isa_scan",
+      "bi_isa_blockers",
+      "bi_isa_nofit_matrix",
+      "bi_stage_incident_source_audit",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure3_incident_hospital.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ev_inc_date",
+      "ev_inc_code",
+      "ev_inc_evidence",
+      "ev_inc_contract_example",
+      "ev_inc_specs",
+      "ev_inc_read_pair",
+      "ev_inc_scan",
+      "ev_inc_srd",
+      "ev_inc_column",
+      "ev_inc_censor",
+      "ev_inc_add_years",
+      "ev_inc_risk",
+      "ev_inc_terms",
+      "ev_inc_fit",
+      "ev_inc_blank",
+      "ev_inc_gate",
+      "ev_inc_endpoint",
+      "ev_incident",
+      "ev_incident_audit",
+      "ev_incident_tests",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_linear.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "as_num",
+      "clean_count",
+      "make_birth_order",
+      "linear_formulas",
+      "ethnicity_top",
+      "linear_covars",
+      "linear_sample",
+      "adjust_branch",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_operation.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ev_operation_prior",
+      "ev_operation_tests",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure3_incident_provenance.R",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ev_prov_missing",
+      "ev_prov_unique_eid",
+      "ev_prov_date",
+      "ev_prov_pseudodate",
+      "ev_prov_registry_dates",
+      "ev_prov_uniform_coverage",
+      "ev_prov_opcs_coronary_codes",
+      "ev_prov_icd9_prior",
+      "ev_prov_firstocc_prior",
+      "ev_prov_gp_positive_prior",
+      "ev_prov_touchscreen_prior",
+      "ev_prov_operation_prior",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_screen_prepare.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_p_assert",
+      "ff_p_env",
+      "ff_p_sha",
+      "ff_p_cfg",
+      "ff_p_host",
+      "ff_p_rebase",
+      "ff_p_run",
+      "ff_p_R_hash",
+      "ff_p_auth",
+      "ff_p_exposure_alignment",
+      "ff_p_v5",
+      "ff_p_endpoint",
+      "ff_prepare",
+      "ff_load",
+      "ff_draw",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 8
+  },
+  {
+    "file": "analysis/Figure4_single_screen_a_reuse.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_a_assert",
+      "ff_a_hash",
+      "ff_a_sha",
+      "ff_a_check",
+      "ff_a_descriptor",
+      "ff_a_read",
+      "ff_a_selection_formula",
+      "ff_a_selection",
+      "ff_a_numeric",
+      "ff_a_category_probability",
+      "ff_a_scenarios",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_screen_outcome.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_y_stop",
+      "ff_y_assert",
+      "ff_y_capture",
+      "ff_y_runtime",
+      "ff_y_validate_endpoint",
+      "ff_y_validate_weights",
+      "ff_y_design",
+      "ff_y_ph",
+      "ff_y_kernel_provenance",
+      "ff_y_risk",
+      "ff_y_matrix",
+      "ff_y_fit_native_one",
+      "ff_y_native_baseline",
+      "ff_fit_y_matrix",
+      "ff_fit_y",
+      "ff_y_probability_check",
+      "ff_y_predict_at",
+      "ff_predict_y_matrix",
+      "ff_predict_y",
+      "ff_y_effect_closure",
+      "ff_validate_y_matrix",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure4_single_screen_aj_backend.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_aj_status",
+      "ff_aj_backend",
+      "ff_aj_compare_fixture",
+      "ff_aj_acceptance",
+      "ff_aj_initialize",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_screen_worker.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_w_assert",
+      "ff_w_json",
+      "ff_w_flat",
+      "ff_w_csv",
+      "ff_w_stage",
+      "ff_w_draw",
+      "ff_w_base_row",
+      "ff_w_classify",
+      "ff_w_integrate",
+      "ff_w_bridge",
+      "ff_compute",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_prepare.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_p_assert",
+      "ff_p_env",
+      "ff_p_sha",
+      "ff_p_cfg",
+      "ff_p_host",
+      "ff_p_rebase",
+      "ff_p_run",
+      "ff_p_R_hash",
+      "ff_p_auth",
+      "ff_p_exposure_alignment",
+      "ff_p_v5",
+      "ff_p_endpoint",
+      "ff_prepare",
+      "ff_load",
+      "ff_draw",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 8
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_a_reuse.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_a_assert",
+      "ff_a_hash",
+      "ff_a_sha",
+      "ff_a_check",
+      "ff_a_descriptor",
+      "ff_a_read",
+      "ff_a_selection_formula",
+      "ff_a_selection",
+      "ff_a_numeric",
+      "ff_a_category_probability",
+      "ff_a_scenarios",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_outcome.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_y_stop",
+      "ff_y_assert",
+      "ff_y_capture",
+      "ff_y_runtime",
+      "ff_y_validate_endpoint",
+      "ff_y_validate_weights",
+      "ff_y_design",
+      "ff_y_ph",
+      "ff_y_kernel_provenance",
+      "ff_y_risk",
+      "ff_y_matrix",
+      "ff_y_fit_native_one",
+      "ff_y_native_baseline",
+      "ff_fit_y_matrix",
+      "ff_fit_y",
+      "ff_y_probability_check",
+      "ff_y_predict_at",
+      "ff_predict_y_matrix",
+      "ff_predict_y",
+      "ff_y_effect_closure",
+      "ff_validate_y_matrix",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_aj_backend.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_aj_status",
+      "ff_aj_backend",
+      "ff_aj_compare_fixture",
+      "ff_aj_acceptance",
+      "ff_aj_initialize",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_worker.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_w_assert",
+      "ff_w_json",
+      "ff_w_flat",
+      "ff_w_csv",
+      "ff_w_stage",
+      "ff_w_draw",
+      "ff_w_base_row",
+      "ff_w_v4_row",
+      "ff_w_fit",
+      "ff_w_probability_audit",
+      "ff_w_predict",
+      "ff_w_numeric_summary",
+      "ff_w_classify",
+      "ff_w_weight_history",
+      "ff_w_integrate",
+      "ff_w_bridge",
+      "ff_compute",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_panel.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_load",
+      "ff_w_draw",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_a_task_cache.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "b16_a_cache_assert",
+      "b16_a_cache_digest",
+      "b16_a_cache_is_hash",
+      "b16_a_parameter_hash",
+      "b16_a_cache_function_hash",
+      "b16_a_cache_binding",
+      "b16_a_cache_proof",
+      "b16_a_cache_rng",
+      "b16_a_weight_output_check",
+      "b16_a_cache_call",
+      "b16_install_a_task_cache",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 2
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_a_derived_reader.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "b16_a_derived_function_sha",
+      "b16_a_derived_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_incremental_a.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "b9_a_put",
+      "b9_a_canonical",
+      "b9_a_private_path",
+      "b9_a_initialize",
+      "b9_a_source_parent",
+      "b9_a_candidates",
+      "b9_a_completion_donor",
+      "b9_a_rederivation_reason",
+      "b9_a_compare_donors",
+      "b9_a_materialize",
+      "b9_a_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_ihd_pooling.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_m_columns",
+      "ff_m_fit",
+      "ff_y_predict_at",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_center_strata.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_ce_method_spec",
+      "ff_ce_fail",
+      "ff_ce_bad_warning",
+      "ff_ce_centers",
+      "ff_ce_columns",
+      "ff_ce_support",
+      "ff_ce_native",
+      "ff_ce_score",
+      "ff_ce_baselines",
+      "ff_ce_merge_baselines",
+      "ff_ce_fit",
+      "ff_ce_predict_at",
+      "ff_ce_predict_y_matrix",
+      "ff_ce_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_single_refinement_ihd_sensitivity.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": "run_in_private_context",
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_protein_warning_helpers.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "rw_assert",
+      "rw_json",
+      "rw_sha",
+      "rw_check",
+      "rw_inside",
+      "rw_newdir",
+      "rw_core",
+      "rw_warning_map",
+      "rw_information",
+      "rw_support",
+      "rw_replace",
+      "rw_clone_fit",
+      "rw_rebuild_family",
+      "rw_probability_pair",
+      "rw_effects",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_protein_warning_policy.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "p2_policy_spec",
+      "p2_method_review_sha256",
+      "p2_rebase",
+      "p2_key",
+      "p2_warning_map",
+      "p2_clone_fit",
+      "p2_diagnostics",
+      "p2_compact_family",
+      "p2_import_phase1",
+      "p2_verified",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 6
+  },
+  {
+    "file": "analysis/Figure4_protein_warning_worker.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "emit",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure4_single_input_adapter.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v5_assert",
+      "v5_env",
+      "v5_sha",
+      "v5_hash",
+      "v5_check",
+      "v5_bind",
+      "v5_json",
+      "v5_csv",
+      "v5_publish",
+      "v5_deps",
+      "v5_id",
+      "v5_utc",
+      "v5_scope",
+      "v5_sources",
+      "v5_run",
+      "v5_rebase",
+      "v5_read_source",
+      "v5_join",
+      "v5_vendor_features",
+      "v5_pure_risk",
+      "v5_dated_bridge",
+      "v5_recover_social",
+      "v5_stage",
+      "v5_frame_endpoint",
+      "v5_install_hooks",
+      "v5_landmark",
+      "v5_prepare",
+      "v5_load",
+      "v5_task_dir",
+      "v5_failed_status",
+      "v5_base_row",
+      "v5_compute",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 14
+  },
+  {
+    "file": "analysis/Figure4_single_completion.R",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "new_json",
+      "emit",
+      "assemble",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_inputs.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "hash",
+      "readj",
+      "vec",
+      "writej",
+      "writer",
+      "selection_for",
+      "preserve_rng",
+      "endpoint_counts",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure5_body_coordinates.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "body_tqe_assert",
+      "body_tqe_revision",
+      "body_tqe_ids",
+      "body_tqe_mass_ids",
+      "body_tqe_names",
+      "body_tqe_hash",
+      "body_tqe_binding",
+      "body_tqe_precision",
+      "body_tqe_columns",
+      "body_tqe_encode",
+      "body_tqe_scale",
+      "body_tqe_standardize",
+      "body_tqe_reference_copy",
+      "body_tqe_affine_prepare",
+      "body_tqe_raw_fit",
+      "body_tqe_coordinate_fit",
+      "body_tqe_e_fit",
+      "body_tqe_fit_a",
+      "body_tqe_category_draw",
+      "body_tqe_draw_a",
+      "body_tqe_support",
+      "body_tqe_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_body_distribution.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "body_pmm_revision",
+      "body_pmm_ids",
+      "body_pmm_spec",
+      "body_pmm_tree_accelerate",
+      "body_pmm_tree_fit",
+      "body_pmm_tree_query",
+      "body_pmm_donor_query",
+      "body_pmm_group_fit",
+      "body_pmm_group_draw",
+      "body_pmm_check_reused",
+      "body_pmm_fit_a",
+      "body_pmm_draw_a",
+      "body_pmm_extend_saved_A",
+      "body_pmm_diagnostics",
+      "body_pmm_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_body_diagnostics.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "body_tqeD_assert",
+      "body_tqeD_summary",
+      "body_tqe_diagnostics",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_metabolite_percentage.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "nmr23591_assert",
+      "nmr23591_id",
+      "nmr23591_revision",
+      "nmr23591_hash",
+      "nmr23591_check_percent",
+      "nmr23591_conditional_fit",
+      "nmr23591_conditional_draw",
+      "nmr23591_install",
+      "nmr23591_observed_prefix",
+      "nmr23591_revise_saved_A",
+      "nmr23591_distribution_receipt",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_metabolite_ratio.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "nmr23435_assert",
+      "nmr23435_id",
+      "nmr23435_revision",
+      "nmr23435_hash",
+      "nmr23435_check_positive",
+      "nmr23435_conditional_fit",
+      "nmr23435_conditional_draw",
+      "nmr23435_install",
+      "nmr23435_observed_prefix",
+      "nmr23435_revise_saved_A",
+      "nmr23435_distribution_receipt",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_composition_blocks.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "s44_nmr_fields",
+      "s44_nmr_blockspec",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_composition_A.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "nmrA_assert",
+      "nmrA_revision",
+      "nmrA_rng",
+      "nmrA_eval",
+      "nmrA_basis",
+      "nmrA_ilr",
+      "nmrA_inverse_ilr",
+      "nmrA_raw_values",
+      "nmrA_block_fields",
+      "nmrA_block_encode",
+      "nmrA_block_decode",
+      "nmrA_roundtrip",
+      "nmrA_status_fit",
+      "nmrA_status_draw",
+      "nmrA_conditional_fit",
+      "nmrA_predictor",
+      "nmrA_predictor_inverse",
+      "nmrA_conditional_draw",
+      "nmrA_member_bounds",
+      "nmrA_affine_bounds",
+      "nmrA_total_bounds",
+      "nmrA_aux_dynamic_bounds",
+      "nmrA_aux_bounds",
+      "fit_nmr_composition_A",
+      "draw_nmr_composition_A",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_composition_diagnostics.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "nmrD_moments",
+      "nmrD_weighted_rank",
+      "nmrD_spearman",
+      "nmrD_default_pairs",
+      "nmrD_table",
+      "nmr_observed_summary",
+      "nmr_compare_summaries",
+      "nmr_generated_summary",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_product_runtime.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "nmr_install_product_runtime",
+      "nmr_ref_width105",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_reverse_order.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "omics_product_stream",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_centre_basis.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "s44yc_assert",
+      "s44yc_hash",
+      "s44yc_design",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_domain_kernel.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "new121_abort",
+      "new121_spec",
+      "new121_check_M",
+      "new121_predict",
+      "new121_scenarios",
+      "new121_finish",
+      "new121_finish_no_mc",
+      "new121_product_stream",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_Y_prediction.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "new121_y_assert",
+      "new121_y_engine",
+      "new121_y_exact_alias_plan",
+      "new121_y_apply_alias_plan",
+      "new121_fit_y",
+      "new121_y_design",
+      "new121_y_design_factory",
+      "new121_y_prediction",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_input_functions.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "c39_assert",
+      "c39_hash",
+      "c39_sha",
+      "c39_read",
+      "c39_json",
+      "c39_rds",
+      "c39_run",
+      "c39_config",
+      "c39_rng",
+      "c39_selection_engine",
+      "c39_unwrap_monitor",
+      "c39_members",
+      "c39_selection",
+      "c39_counts",
+      "c39_member_audit",
+      "c39_attach_backend",
+      "c39_backend_load",
+      "c39_prepare",
+      "c39_load",
+      "c39_task",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure5_model_functions.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "c39_assert",
+      "c39_basis",
+      "c39_spline_reference",
+      "c39_design",
+      "c39_support",
+      "c39_a_design",
+      "c39_linear_fit",
+      "c39_logistic_fit",
+      "c39_fit_a",
+      "c39_residual_draw",
+      "c39_draw_a",
+      "c39_install_models",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_integration.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "c39_num_assert",
+      "c39_num_spec",
+      "c39_num_reject_unsafe_flags",
+      "c39_num_initialize",
+      "c39_num_run",
+      "c39_num_quadrature",
+      "c39_num_install",
+      "c39_num_empty_audit",
+      "c39_num_add_audit",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_ethnicity.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "c39_uy_assert",
+      "c39_uy_pool_columns",
+      "c39_uy_replace",
+      "c39_uy_death_cache",
+      "c39_uy_native_or_reuse",
+      "c39_uy_verify_death_baseline",
+      "c39_uy_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_BMI_generation.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "c39_loga_assert",
+      "c39_loga_ids",
+      "c39_loga_revision",
+      "c39_loga_hash",
+      "c39_loga_rng",
+      "c39_loga_assert_rng",
+      "c39_loga_linear_fit",
+      "c39_loga_residual_draw",
+      "c39_loga_install",
+      "c39_mixeda_install",
+      "c39_mixeda_restore_bundle",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_A_common.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "fd_assert",
+      "fd_env",
+      "fd_hash",
+      "fd_sha",
+      "fd_json",
+      "fd_read",
+      "fd_capture",
+      "fd_ids",
+      "fd_model",
+      "fd_rng",
+      "fd_seed",
+      "fd_outdir",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_A_joint.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "fd_validate_members",
+      "fd_support",
+      "fd_fit_a",
+      "fd_probs",
+      "fd_draw_a",
+      "fd_design",
+      "fd_distribution_state",
+      "fd_distribution_update",
+      "fd_distribution_finish",
+      "fd_integrate",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_fast_prediction.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "fd_fp_assert",
+      "fd_fp_matrix",
+      "fd_fp_compile",
+      "fd_fp_prepare",
+      "fd_fp_predict_matrix",
+      "fd_attach_fast_prediction",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_centre_baseline.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_ce_method_spec",
+      "ff_ce_fail",
+      "ff_ce_bad_warning",
+      "ff_ce_centers",
+      "ff_ce_columns",
+      "ff_ce_support",
+      "ff_ce_native",
+      "ff_ce_score",
+      "ff_ce_baselines",
+      "ff_ce_merge_baselines",
+      "ff_ce_fit",
+      "ff_ce_predict_at",
+      "ff_ce_predict_y_matrix",
+      "ff_ce_install",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_outcome.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "ff_y_stop",
+      "ff_y_assert",
+      "ff_y_capture",
+      "ff_y_runtime",
+      "ff_y_validate_endpoint",
+      "ff_y_validate_weights",
+      "ff_y_design",
+      "ff_y_ph",
+      "ff_y_kernel_provenance",
+      "ff_y_risk",
+      "ff_y_matrix",
+      "ff_y_fit_native_one",
+      "ff_y_native_baseline",
+      "ff_fit_y_matrix",
+      "ff_fit_y",
+      "ff_y_probability_check",
+      "ff_y_predict_at",
+      "ff_predict_y_matrix",
+      "ff_predict_y",
+      "ff_y_effect_closure",
+      "ff_validate_y_matrix",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Figure5_protein_fit.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "pry_assert",
+      "pry_hash",
+      "pry_matrix",
+      "pry_pool_X",
+      "pry_weight_scale",
+      "pry_check_centers",
+      "pry_freeze_reference",
+      "pry_check_reference",
+      "pry_screen_design",
+      "pry_preflight_fixed100",
+      "pry_build_transform",
+      "pry_check_qr_equivalence",
+      "pry_transform_X",
+      "pry_runtime_guard",
+      "pry_fit_piece",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_protein_predict.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "pry_predict_assert",
+      "pry_predict_tolerances",
+      "pry_predict_capture",
+      "pry_predict_close",
+      "pry_predict_check_kernel",
+      "pry_predict_kernel",
+      "pry_predict_piece_check",
+      "pry_predict_design",
+      "pry_predict_native_lp",
+      "pry_predict_native_curves",
+      "pry_predict_merge_curves",
+      "pry_compile_endpoint",
+      "pry_predict_core",
+      "pry_predict_matrix",
+      "pry_scalar_R_probability",
+      "pry_validation_probe",
+      "pry_validate_prediction",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_protein_A_reuse.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "s44pr_a_fail",
+      "s44pr_a_assert",
+      "s44pr_a_hash",
+      "s44pr_a_vec",
+      "s44pr_a_sha",
+      "s44pr_A_source_pins",
+      "s44pr_A_context",
+      "s44pr_A_original_key",
+      "s44pr_reuse_A",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 20
+  },
+  {
+    "file": "analysis/Supplementary_HbA1c_prepare.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "gs_assert",
+      "gs_hash",
+      "gs_sha",
+      "gs_vec",
+      "gs_utc",
+      "gs_new_json",
+      "gs_new_rds",
+      "gs_norm",
+      "gs_inside",
+      "gs_check_config",
+      "gs_resolve_config",
+      "gs_input_pins",
+      "gs_endpoint_counts",
+      "gs_raw_hba1c_mask",
+      "gs_prepare_B0",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 16
+  },
+  {
+    "file": "analysis/Supplementary_HbA1c_runtime.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "gs_rt_assert",
+      "gs_rt_hash",
+      "gs_rt_sha",
+      "gs_rt_norm",
+      "gs_rt_inside",
+      "gs_rt_task_name",
+      "gs_rt_task_boundary",
+      "gs_rt_pins",
+      "gs_rt_source_closure",
+      "gs_rt_no_old_A_options",
+      "gs_rt_new_path",
+      "gs_rt_rds",
+      "gs_rt_json",
+      "gs_load_runtime",
+      "gs_rt_validate_inputs",
+      "gs_validate_generated_A",
+      "gs_rt_probe_rows",
+      "gs_rt_validate_y",
+      "gs_fit_and_validate_y",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 40
+  },
+  {
+    "file": "analysis/Supplementary_HbA1c_bootstrap.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "gs100_worker_task_name",
+      "gs100_worker_runtime_sha",
+      "gs100_worker_mkdir",
+      "gs100_worker_file",
+      "gs100_worker_rng",
+      "gs100_worker_restore_rng",
+      "gs100_worker_failure_class",
+      "gs100_worker_a_check",
+      "gs100_worker_y_check",
+      "gs100_worker_completed_phase",
+      "gs100_worker_kernel_audit",
+      "gs100_worker_validate_integral",
+      "gs100_worker_main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 2
+  },
+  {
+    "file": "analysis/Figure6_bulk.R",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "write_new",
+      "read_matrix",
+      "meta",
+      "normalize_symbols",
+      "annotation",
+      "fit",
+      "tab",
+      "coretab",
+      "qc",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure6_pseudobulk.R",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "env_or",
+      "resolve_path",
+      "fail",
+      "assert",
+      "path_exists",
+      "write_csv",
+      "write_text",
+      "bind_rows",
+      "bh_fixed",
+      "empty_all",
+      "build_design",
+      "analyse_dataset",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure2_Sweden.py",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "save",
+      "text",
+      "p_chi",
+      "covariance",
+      "gls",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure4_selection.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "read",
+      "sha",
+      "write",
+      "jwrite",
+      "txt",
+      "number",
+      "state",
+      "either",
+      "all_flags",
+      "percent_set",
+      "close",
+      "pretty",
+      "ci",
+      "run",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 2
+  },
+  {
+    "file": "analysis/Figure4_correlations.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "read",
+      "sha",
+      "write",
+      "js",
+      "text",
+      "num",
+      "matrixwrite",
+      "hierarchy",
+      "tree",
+      "heatmap",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure4_refinement_FDR.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "bh",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Figure4_warning_summary.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "require",
+      "sha",
+      "jsread",
+      "obj",
+      "rows",
+      "numeric",
+      "same",
+      "identity",
+      "sealed_result",
+      "effects_check",
+      "probability_check",
+      "draw_proof",
+      "pair_proof",
+      "finish_presence",
+      "aggregate",
+      "csvread",
+      "csvwrite",
+      "display_tables",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 3
+  },
+  {
+    "file": "analysis/Supplementary_penalty.py",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "read",
+      "sha",
+      "output",
+      "f",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_HbA1c_summary.py",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "require",
+      "sha",
+      "read_json",
+      "finite",
+      "pinned",
+      "module",
+      "value",
+      "validate_aggregate",
+      "task_path",
+      "load_inputs",
+      "normalize_effect",
+      "normalize_ratio",
+      "review_rows",
+      "frozen_original",
+      "change",
+      "compare_original",
+      "inference_details",
+      "count_status",
+      "write_csv",
+      "write_json",
+      "release",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure6_sample_QC.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha256_file",
+      "write_json_new",
+      "write_csv_new",
+      "write_mtx_new",
+      "broad_type",
+      "_dense_gene_values",
+      "_concat_csv",
+      "process_sample",
+      "finalize",
+      "run_t2d",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure6_CAD_stream.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "emit",
+      "sha_file",
+      "download_ram",
+      "write_new_or_verify",
+      "load_api",
+      "download_raw_donor",
+      "load_donor",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure6_embeddings.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure2_PheWAS.py",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "rows",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure2_external.py",
+    "scope": "Figure2",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "label",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure3_forests.py",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "readcsv",
+      "qtext",
+      "settings",
+      "forest_axes",
+      "interval",
+      "layout_check",
+      "render",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure3_curves.py",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure3_subgroups.py",
+    "scope": "Figure3",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "root_path",
+      "fonts",
+      "luminance",
+      "render",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure4_circos.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "jwrite",
+      "mapping",
+      "colorize",
+      "info_card",
+      "render",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "figures/Figure4_circos_geometry.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "apply_effect_palette",
+      "digest",
+      "save_csv",
+      "load_data",
+      "polar",
+      "geometry",
+      "draw_info",
+      "polygons_overlap",
+      "radial_labels",
+      "curved_domain_label",
+      "render",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure4_quadrant.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "module",
+      "sha",
+      "read",
+      "write_csv",
+      "interval",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure4_labels.py",
+    "scope": "Figure4",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "read",
+      "sha",
+      "write_csv",
+      "place_nearby_labels",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure6_features.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "write_json",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure6_UMAP.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "write_json_new",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure6_spacing.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "digest",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure6_donors.py",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "replace_one",
+      "baseline_source",
+      "styled_source",
+      "capture_geometry",
+      "check_visible_text",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure6_bulk_render.R",
+    "scope": "Figure6",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": "run_in_private_context",
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/single_aj.c",
+    "scope": "Figure4",
+    "mode": "NUMERICAL_SOURCE",
+    "functions": [],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/joint_exponential.c",
+    "scope": "Figure5",
+    "mode": "NUMERICAL_SOURCE",
+    "functions": [],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_social.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_ses_derive",
+      "bi_ses_extension",
+      "bi_stage_ses",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_clinical_heterogeneity.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "bi_c_exposures",
+      "bi_c_codes",
+      "bi_c_failure",
+      "bi_c_outcome_unavailable",
+      "bi_c_job",
+      "bi_c_annotate",
+      "bi_c_complete",
+      "bi_c_derive",
+      "bi_c_validate_settings",
+      "bi_c_interaction_registry",
+      "bi_c_fixed_strata",
+      "bi_c_modifier_levels",
+      "bi_c_saved_id_hash",
+      "bi_c_reuse_source",
+      "bi_c_authenticate_saved",
+      "bi_c_fit_or_reuse",
+      "bi_c_restrictions",
+      "bi_c_restriction_fit",
+      "bi_stage_clinical",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 4
+  },
+  {
+    "file": "analysis/Supplementary_CMR_sibship.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v2_cmr_migration_shape",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_A_alignment.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "assert",
+      "num",
+      "blank",
+      "close_relative",
+      "read_character_csv",
+      "formula_clean",
+      "sha",
+      "read_text",
+      "check",
+      "fmt",
+      "write_new",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 1
+  },
+  {
+    "file": "analysis/Supplementary_marker_models.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v2_feature_dictionary",
+      "v2_feature_context",
+      "v2_medication_flags",
+      "v2_continuous_one",
+      "v2_clinical_omics",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_marker_loader.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "prepare",
+      "load_feature",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_model_common.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v2_assert",
+      "v2_codes",
+      "v2_ids",
+      "v2_hash",
+      "v2_filehash",
+      "v2_unwrap",
+      "v2_publish",
+      "v2_cp",
+      "v2_csv",
+      "v2_json",
+      "v2_read",
+      "v2_workers",
+      "v2_parallel",
+      "v2_s8",
+      "v2_row",
+      "v2_model",
+      "v2_adjust",
+      "v2_register",
+      "v2_block",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Supplementary_fields.R",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "v2_supplemental_fields",
+      "v2_restriction_specs",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_protein_worker.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "progress",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "analysis/Figure5_protein_runtime.R",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "pr_assert",
+      "pr_sha",
+      "pr_hash",
+      "pr_vec",
+      "pr_json",
+      "pr_rds",
+      "pr_read",
+      "pr_runtime",
+      "pr_data",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 2
+  },
+  {
+    "file": "analysis/Supplementary_penalty_execution.py",
+    "scope": "Supplementary",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "read",
+      "sha",
+      "canonical",
+      "digest",
+      "file_record",
+      "check_record",
+      "publish",
+      "text_file",
+      "csv_file",
+      "publication",
+      "failure_handoff",
+      "task_request",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  },
+  {
+    "file": "figures/Figure5_heatmap.py",
+    "scope": "Figure5",
+    "mode": "FUNCTION_LIBRARY",
+    "functions": [
+      "sha",
+      "read",
+      "stars",
+      "main",
+      "run_in_private_context"
+    ],
+    "private_literal_count": 0
+  }
+]

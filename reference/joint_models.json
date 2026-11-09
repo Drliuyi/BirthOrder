@@ -1,0 +1,560 @@
+{
+  "selected44": [
+    "smoking",
+    "bmi",
+    "weight",
+    "fat_free_mass",
+    "fat_mass",
+    "hip",
+    "waist",
+    "clinical__hdl",
+    "clinical__tg",
+    "clinical__glucose",
+    "clinical__hba1c",
+    "nmr__nmr_23406",
+    "nmr__nmr_23418",
+    "nmr__nmr_23435",
+    "nmr__nmr_23587",
+    "nmr__nmr_23588",
+    "nmr__nmr_23591",
+    "nmr__nmr_23594",
+    "nmr__nmr_23595",
+    "nmr__nmr_23596",
+    "nmr__nmr_23597",
+    "nmr__nmr_23598",
+    "nmr__nmr_23599",
+    "nmr__nmr_23600",
+    "nmr__nmr_23602",
+    "nmr__nmr_23603",
+    "nmr__nmr_23605",
+    "nmr__nmr_23606",
+    "nmr__nmr_23608",
+    "nmr__nmr_23610",
+    "nmr__nmr_23611",
+    "nmr__nmr_23613",
+    "nmr__nmr_23617",
+    "nmr__nmr_23618",
+    "nmr__nmr_23622",
+    "nmr__nmr_23623",
+    "nmr__nmr_23628",
+    "nmr__nmr_23639",
+    "nmr__nmr_23640",
+    "nmr__nmr_23648",
+    "olink__fcrl6",
+    "olink__gzma",
+    "olink__gzmh",
+    "olink__klrd1"
+  ],
+  "domains": {
+    "SMOKING": [
+      "smoking"
+    ],
+    "BODY_COMPOSITION": [
+      "bmi",
+      "weight",
+      "fat_free_mass",
+      "fat_mass",
+      "hip",
+      "waist"
+    ],
+    "CLINICAL_LIPIDS": [
+      "clinical__hdl",
+      "clinical__tg"
+    ],
+    "GLYCAEMIA": [
+      "clinical__glucose",
+      "clinical__hba1c"
+    ],
+    "NMR_ALL": [
+      "nmr__nmr_23406",
+      "nmr__nmr_23418",
+      "nmr__nmr_23435",
+      "nmr__nmr_23587",
+      "nmr__nmr_23588",
+      "nmr__nmr_23591",
+      "nmr__nmr_23594",
+      "nmr__nmr_23595",
+      "nmr__nmr_23596",
+      "nmr__nmr_23597",
+      "nmr__nmr_23598",
+      "nmr__nmr_23599",
+      "nmr__nmr_23600",
+      "nmr__nmr_23602",
+      "nmr__nmr_23603",
+      "nmr__nmr_23605",
+      "nmr__nmr_23606",
+      "nmr__nmr_23608",
+      "nmr__nmr_23610",
+      "nmr__nmr_23611",
+      "nmr__nmr_23613",
+      "nmr__nmr_23617",
+      "nmr__nmr_23618",
+      "nmr__nmr_23622",
+      "nmr__nmr_23623",
+      "nmr__nmr_23628",
+      "nmr__nmr_23639",
+      "nmr__nmr_23640",
+      "nmr__nmr_23648"
+    ],
+    "CANDIDATE_PROTEINS": [
+      "olink__fcrl6",
+      "olink__gzma",
+      "olink__gzmh",
+      "olink__klrd1"
+    ]
+  },
+  "models": {
+    "S44_BASE11": {
+      "model_id": "S44_BASE11",
+      "line": "BASE",
+      "members": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "domains": {
+        "SMOKING": [
+          "smoking"
+        ],
+        "BODY_COMPOSITION": [
+          "bmi",
+          "weight",
+          "fat_free_mass",
+          "fat_mass",
+          "hip",
+          "waist"
+        ],
+        "CLINICAL_LIPIDS": [
+          "clinical__hdl",
+          "clinical__tg"
+        ],
+        "GLYCAEMIA": [
+          "clinical__glucose",
+          "clinical__hba1c"
+        ]
+      },
+      "allocation_order": [
+        "SMOKING",
+        "BODY_COMPOSITION",
+        "CLINICAL_LIPIDS",
+        "GLYCAEMIA"
+      ],
+      "A_generation_order": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "uniform_dim": 11,
+      "base": [
+        "B",
+        "age",
+        "sex",
+        "ethnicity",
+        "center",
+        "assessment_year",
+        "S"
+      ]
+    },
+    "S44_NMR_REF11": {
+      "model_id": "S44_NMR_REF11",
+      "line": "NMR",
+      "members": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "domains": {
+        "SMOKING": [
+          "smoking"
+        ],
+        "BODY_COMPOSITION": [
+          "bmi",
+          "weight",
+          "fat_free_mass",
+          "fat_mass",
+          "hip",
+          "waist"
+        ],
+        "CLINICAL_LIPIDS": [
+          "clinical__hdl",
+          "clinical__tg"
+        ],
+        "GLYCAEMIA": [
+          "clinical__glucose",
+          "clinical__hba1c"
+        ]
+      },
+      "allocation_order": [
+        "SMOKING",
+        "BODY_COMPOSITION",
+        "CLINICAL_LIPIDS",
+        "GLYCAEMIA"
+      ],
+      "A_generation_order": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "uniform_dim": 49,
+      "base": [
+        "B",
+        "age",
+        "sex",
+        "ethnicity",
+        "center",
+        "assessment_year",
+        "S"
+      ]
+    },
+    "S44_NMR_PLUS40": {
+      "model_id": "S44_NMR_PLUS40",
+      "line": "NMR",
+      "members": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c",
+        "nmr__nmr_23406",
+        "nmr__nmr_23418",
+        "nmr__nmr_23435",
+        "nmr__nmr_23587",
+        "nmr__nmr_23588",
+        "nmr__nmr_23591",
+        "nmr__nmr_23594",
+        "nmr__nmr_23595",
+        "nmr__nmr_23596",
+        "nmr__nmr_23597",
+        "nmr__nmr_23598",
+        "nmr__nmr_23599",
+        "nmr__nmr_23600",
+        "nmr__nmr_23602",
+        "nmr__nmr_23603",
+        "nmr__nmr_23605",
+        "nmr__nmr_23606",
+        "nmr__nmr_23608",
+        "nmr__nmr_23610",
+        "nmr__nmr_23611",
+        "nmr__nmr_23613",
+        "nmr__nmr_23617",
+        "nmr__nmr_23618",
+        "nmr__nmr_23622",
+        "nmr__nmr_23623",
+        "nmr__nmr_23628",
+        "nmr__nmr_23639",
+        "nmr__nmr_23640",
+        "nmr__nmr_23648"
+      ],
+      "domains": {
+        "SMOKING": [
+          "smoking"
+        ],
+        "BODY_COMPOSITION": [
+          "bmi",
+          "weight",
+          "fat_free_mass",
+          "fat_mass",
+          "hip",
+          "waist"
+        ],
+        "CLINICAL_LIPIDS": [
+          "clinical__hdl",
+          "clinical__tg"
+        ],
+        "GLYCAEMIA": [
+          "clinical__glucose",
+          "clinical__hba1c"
+        ],
+        "NMR_ALL": [
+          "nmr__nmr_23406",
+          "nmr__nmr_23418",
+          "nmr__nmr_23435",
+          "nmr__nmr_23587",
+          "nmr__nmr_23588",
+          "nmr__nmr_23591",
+          "nmr__nmr_23594",
+          "nmr__nmr_23595",
+          "nmr__nmr_23596",
+          "nmr__nmr_23597",
+          "nmr__nmr_23598",
+          "nmr__nmr_23599",
+          "nmr__nmr_23600",
+          "nmr__nmr_23602",
+          "nmr__nmr_23603",
+          "nmr__nmr_23605",
+          "nmr__nmr_23606",
+          "nmr__nmr_23608",
+          "nmr__nmr_23610",
+          "nmr__nmr_23611",
+          "nmr__nmr_23613",
+          "nmr__nmr_23617",
+          "nmr__nmr_23618",
+          "nmr__nmr_23622",
+          "nmr__nmr_23623",
+          "nmr__nmr_23628",
+          "nmr__nmr_23639",
+          "nmr__nmr_23640",
+          "nmr__nmr_23648"
+        ]
+      },
+      "allocation_order": [
+        "SMOKING",
+        "BODY_COMPOSITION",
+        "CLINICAL_LIPIDS",
+        "GLYCAEMIA",
+        "NMR_ALL"
+      ],
+      "A_generation_order": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c",
+        "nmr__nmr_23406",
+        "nmr__nmr_23418",
+        "nmr__nmr_23435",
+        "nmr__nmr_23587",
+        "nmr__nmr_23588",
+        "nmr__nmr_23591",
+        "nmr__nmr_23594",
+        "nmr__nmr_23595",
+        "nmr__nmr_23596",
+        "nmr__nmr_23597",
+        "nmr__nmr_23598",
+        "nmr__nmr_23599",
+        "nmr__nmr_23600",
+        "nmr__nmr_23602",
+        "nmr__nmr_23603",
+        "nmr__nmr_23605",
+        "nmr__nmr_23606",
+        "nmr__nmr_23608",
+        "nmr__nmr_23610",
+        "nmr__nmr_23611",
+        "nmr__nmr_23613",
+        "nmr__nmr_23617",
+        "nmr__nmr_23618",
+        "nmr__nmr_23622",
+        "nmr__nmr_23623",
+        "nmr__nmr_23628",
+        "nmr__nmr_23639",
+        "nmr__nmr_23640",
+        "nmr__nmr_23648"
+      ],
+      "uniform_dim": 49,
+      "base": [
+        "B",
+        "age",
+        "sex",
+        "ethnicity",
+        "center",
+        "assessment_year",
+        "S"
+      ]
+    },
+    "S44_PROT_REF11": {
+      "model_id": "S44_PROT_REF11",
+      "line": "PROTEIN",
+      "members": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "domains": {
+        "SMOKING": [
+          "smoking"
+        ],
+        "BODY_COMPOSITION": [
+          "bmi",
+          "weight",
+          "fat_free_mass",
+          "fat_mass",
+          "hip",
+          "waist"
+        ],
+        "CLINICAL_LIPIDS": [
+          "clinical__hdl",
+          "clinical__tg"
+        ],
+        "GLYCAEMIA": [
+          "clinical__glucose",
+          "clinical__hba1c"
+        ]
+      },
+      "allocation_order": [
+        "SMOKING",
+        "BODY_COMPOSITION",
+        "CLINICAL_LIPIDS",
+        "GLYCAEMIA"
+      ],
+      "A_generation_order": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c"
+      ],
+      "uniform_dim": 15,
+      "base": [
+        "B",
+        "age",
+        "sex",
+        "ethnicity",
+        "center",
+        "assessment_year",
+        "S"
+      ]
+    },
+    "S44_PROT_PLUS15": {
+      "model_id": "S44_PROT_PLUS15",
+      "line": "PROTEIN",
+      "members": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c",
+        "olink__fcrl6",
+        "olink__gzma",
+        "olink__gzmh",
+        "olink__klrd1"
+      ],
+      "domains": {
+        "SMOKING": [
+          "smoking"
+        ],
+        "BODY_COMPOSITION": [
+          "bmi",
+          "weight",
+          "fat_free_mass",
+          "fat_mass",
+          "hip",
+          "waist"
+        ],
+        "CLINICAL_LIPIDS": [
+          "clinical__hdl",
+          "clinical__tg"
+        ],
+        "GLYCAEMIA": [
+          "clinical__glucose",
+          "clinical__hba1c"
+        ],
+        "CANDIDATE_PROTEINS": [
+          "olink__fcrl6",
+          "olink__gzma",
+          "olink__gzmh",
+          "olink__klrd1"
+        ]
+      },
+      "allocation_order": [
+        "SMOKING",
+        "BODY_COMPOSITION",
+        "CLINICAL_LIPIDS",
+        "GLYCAEMIA",
+        "CANDIDATE_PROTEINS"
+      ],
+      "A_generation_order": [
+        "smoking",
+        "bmi",
+        "weight",
+        "fat_free_mass",
+        "fat_mass",
+        "hip",
+        "waist",
+        "clinical__hdl",
+        "clinical__tg",
+        "clinical__glucose",
+        "clinical__hba1c",
+        "olink__fcrl6",
+        "olink__gzma",
+        "olink__gzmh",
+        "olink__klrd1"
+      ],
+      "uniform_dim": 15,
+      "base": [
+        "B",
+        "age",
+        "sex",
+        "ethnicity",
+        "center",
+        "assessment_year",
+        "S"
+      ]
+    }
+  },
+  "risk_years": 11,
+  "mc_draws": 50,
+  "bootstrap_ids": [
+    1,
+    100
+  ],
+  "N": {
+    "BASE": 95314,
+    "NMR": 65936,
+    "PROTEIN": 9174
+  },
+  "fresh_A_Y_pipeline_accepted": false
+}

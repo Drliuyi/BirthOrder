@@ -1,0 +1,19 @@
+column,label,type
+age,Age in years,continuous
+S,Sibship size,continuous
+bmi,Body mass index in kg/m2,continuous
+sbp,Systolic blood pressure in mmHg,continuous
+dbp,Diastolic blood pressure in mmHg,continuous
+tdi,Townsend deprivation index,continuous
+bb_HBA1C,HbA1c in mmol/mol,continuous
+bb_GLU,Glucose in mmol/L,continuous
+bb_TC,Total cholesterol in mmol/L,continuous
+bb_HDL,HDL cholesterol in mmol/L,continuous
+bb_LDL,LDL cholesterol in mmol/L,continuous
+bb_TG,Triglycerides in mmol/L,continuous
+sex,Sex,categorical
+ethnicity,Ethnicity,categorical
+education,Highest recorded qualification,categorical
+income,Household income,categorical
+smoking,Smoking status,categorical
+alcohol,Alcohol status,categorical

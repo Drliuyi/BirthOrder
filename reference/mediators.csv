@@ -1,0 +1,123 @@
+indicator_id,category,original_label,type,measurement_instance
+alcohol,危险因素,Personal drinking status,categorical,baseline_instance_0
+blood_pressure__DBP,危险因素,Diastolic blood pressure,continuous,baseline_visit_0
+blood_pressure__MAP,危险因素,Mean arterial pressure,continuous,baseline_visit_0
+blood_pressure__SBP,危险因素,Systolic blood pressure,continuous,baseline_visit_0
+bmi,危险因素,Adult BMI,continuous,baseline_instance_0
+clinical__apoa,危险因素,Apolipoprotein A,continuous,baseline_visit_0
+clinical__glucose,危险因素,Glucose,continuous,baseline_visit_0
+clinical__hba1c,危险因素,Glycated haemoglobin (HbA1c),continuous,baseline_visit_0
+clinical__hdl,危险因素,HDL cholesterol,continuous,baseline_visit_0
+clinical__ldl,危险因素,LDL direct,continuous,baseline_visit_0
+clinical__tc,危险因素,Total cholesterol,continuous,baseline_visit_0
+clinical__tg,危险因素,Triglycerides,continuous,baseline_visit_0
+fat_free_mass,危险因素,Whole body fat-free mass,continuous,baseline_instance_0
+fat_mass,危险因素,Whole body fat mass,continuous,baseline_instance_0
+hip,危险因素,Adult hip circumference,continuous,baseline_instance_0
+packyears,危险因素,Smoking pack-years,continuous,baseline_instance_0
+smoking,危险因素,Personal smoking status,categorical,baseline_instance_0
+waist,危险因素,Adult waist circumference,continuous,baseline_instance_0
+weight,危险因素,Adult weight,continuous,baseline_instance_0
+whr,危险因素,Adult waist-to-hip ratio,continuous,baseline_instance_0
+nmr__nmr_23400,NMR,Total Cholesterol,continuous,baseline_visit_0
+nmr__nmr_23404,NMR,Clinical LDL Cholesterol,continuous,baseline_visit_0
+nmr__nmr_23406,NMR,HDL Cholesterol,continuous,baseline_visit_0
+nmr__nmr_23415,NMR,Total Esterified Cholesterol,continuous,baseline_visit_0
+nmr__nmr_23418,NMR,Cholesteryl Esters in HDL,continuous,baseline_visit_0
+nmr__nmr_23421,NMR,Free Cholesterol in LDL,continuous,baseline_visit_0
+nmr__nmr_23427,NMR,Total Concentration of Lipoprotein Particles,continuous,baseline_visit_0
+nmr__nmr_23430,NMR,Concentration of HDL Particles,continuous,baseline_visit_0
+nmr__nmr_23435,NMR,Triglycerides to Phosphoglycerides ratio,continuous,baseline_visit_0
+nmr__nmr_23438,NMR,Sphingomyelins,continuous,baseline_visit_0
+nmr__nmr_23440,NMR,Apolipoprotein A1,continuous,baseline_visit_0
+nmr__nmr_23451,NMR,Omega-3 Fatty Acids to Total Fatty Acids percentage,continuous,baseline_visit_0
+nmr__nmr_23459,NMR,Omega-6 Fatty Acids to Omega-3 Fatty Acids ratio,continuous,baseline_visit_0
+nmr__nmr_23506,NMR,Cholesteryl Esters in Medium VLDL,continuous,baseline_visit_0
+nmr__nmr_23523,NMR,Concentration of IDL Particles,continuous,baseline_visit_0
+nmr__nmr_23524,NMR,Total Lipids in IDL,continuous,baseline_visit_0
+nmr__nmr_23525,NMR,Phospholipids in IDL,continuous,baseline_visit_0
+nmr__nmr_23526,NMR,Cholesterol in IDL,continuous,baseline_visit_0
+nmr__nmr_23527,NMR,Cholesteryl Esters in IDL,continuous,baseline_visit_0
+nmr__nmr_23528,NMR,Free Cholesterol in IDL,continuous,baseline_visit_0
+nmr__nmr_23532,NMR,Phospholipids in Large LDL,continuous,baseline_visit_0
+nmr__nmr_23535,NMR,Free Cholesterol in Large LDL,continuous,baseline_visit_0
+nmr__nmr_23568,NMR,Cholesterol in Medium HDL,continuous,baseline_visit_0
+nmr__nmr_23569,NMR,Cholesteryl Esters in Medium HDL,continuous,baseline_visit_0
+nmr__nmr_23584,NMR,Phospholipids to Total Lipids in Very Large VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23587,NMR,Free Cholesterol to Total Lipids in Very Large VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23588,NMR,Triglycerides to Total Lipids in Very Large VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23591,NMR,Cholesteryl Esters to Total Lipids in Large VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23594,NMR,Phospholipids to Total Lipids in Medium VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23595,NMR,Cholesterol to Total Lipids in Medium VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23596,NMR,Cholesteryl Esters to Total Lipids in Medium VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23597,NMR,Free Cholesterol to Total Lipids in Medium VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23598,NMR,Triglycerides to Total Lipids in Medium VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23599,NMR,Phospholipids to Total Lipids in Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23600,NMR,Cholesterol to Total Lipids in Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23602,NMR,Free Cholesterol to Total Lipids in Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23603,NMR,Triglycerides to Total Lipids in Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23605,NMR,Cholesterol to Total Lipids in Very Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23606,NMR,Cholesteryl Esters to Total Lipids in Very Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23607,NMR,Free Cholesterol to Total Lipids in Very Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23608,NMR,Triglycerides to Total Lipids in Very Small VLDL percentage,continuous,baseline_visit_0
+nmr__nmr_23610,NMR,Cholesterol to Total Lipids in IDL percentage,continuous,baseline_visit_0
+nmr__nmr_23611,NMR,Cholesteryl Esters to Total Lipids in IDL percentage,continuous,baseline_visit_0
+nmr__nmr_23613,NMR,Triglycerides to Total Lipids in IDL percentage,continuous,baseline_visit_0
+nmr__nmr_23617,NMR,Free Cholesterol to Total Lipids in Large LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23618,NMR,Triglycerides to Total Lipids in Large LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23620,NMR,Cholesterol to Total Lipids in Medium LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23622,NMR,Free Cholesterol to Total Lipids in Medium LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23623,NMR,Triglycerides to Total Lipids in Medium LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23625,NMR,Cholesterol to Total Lipids in Small LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23628,NMR,Triglycerides to Total Lipids in Small LDL percentage,continuous,baseline_visit_0
+nmr__nmr_23639,NMR,Phospholipids to Total Lipids in Medium HDL percentage,continuous,baseline_visit_0
+nmr__nmr_23640,NMR,Cholesterol to Total Lipids in Medium HDL percentage,continuous,baseline_visit_0
+nmr__nmr_23648,NMR,Triglycerides to Total Lipids in Small HDL percentage,continuous,baseline_visit_0
+olink__fcrl6,蛋白组,FCRL6;Fc receptor-like protein 6,continuous,baseline_visit_0
+olink__gzma,蛋白组,GZMA;Granzyme A,continuous,baseline_visit_0
+olink__gzmh,蛋白组,GZMH;Granzyme H,continuous,baseline_visit_0
+olink__kir2dl2,蛋白组,KIR2DL2;Killer cell immunoglobulin-like receptor 2DL2,continuous,baseline_visit_0
+olink__kir2dl3,蛋白组,KIR2DL3;Killer cell immunoglobulin-like receptor 2DL3,continuous,baseline_visit_0
+olink__klrd1,蛋白组,KLRD1;Natural killer cells antigen CD94,continuous,baseline_visit_0
+olink__top1,蛋白组,TOP1;DNA topoisomerase 1,continuous,baseline_visit_0
+age_education,社会、行为及生命历程,Age completed continuous full-time education,continuous,baseline_instance_0
+birth_weight,社会、行为及生命历程,Recalled birth weight,continuous,baseline_instance_0
+body_size10,社会、行为及生命历程,Relative body size at age 10,categorical,baseline_instance_0
+breastfed,社会、行为及生命历程,Breastfed in infancy,binary,baseline_instance_0
+chronotype,社会、行为及生命历程,Chronotype,categorical,baseline_instance_0
+commute_car,社会、行为及生命历程,Commuting by car,binary,baseline_instance_0
+commute_public_transport,社会、行为及生命历程,Commuting by public transport,binary,baseline_instance_0
+commute_walking,社会、行为及生命历程,Walking to work,binary,baseline_instance_0
+computer_hours,社会、行为及生命历程,Computer use per day,continuous,baseline_instance_0
+confiding,社会、行为及生命历程,Confiding frequency,categorical,baseline_instance_0
+cooked_veg,社会、行为及生命历程,Cooked vegetable intake,continuous,baseline_instance_0
+dried_fruit,社会、行为及生命历程,Dried fruit intake,continuous,baseline_instance_0
+employment_employed,社会、行为及生命历程,In paid employment or self-employed,binary,baseline_instance_0
+employment_student,社会、行为及生命历程,Full or part-time student,binary,baseline_instance_0
+employment_voluntary,社会、行为及生命历程,Unpaid or voluntary work,binary,baseline_instance_0
+height10,社会、行为及生命历程,Relative height at age 10,categorical,baseline_instance_0
+household_size,社会、行为及生命历程,Household size,continuous,baseline_instance_0
+housing_tenure,社会、行为及生命历程,Housing tenure,categorical,baseline_instance_0
+income,社会、行为及生命历程,Average total household income before tax,categorical,baseline_instance_0
+insomnia,社会、行为及生命历程,Insomnia symptoms,categorical,baseline_instance_0
+living_alone,社会、行为及生命历程,Living alone,binary,baseline_instance_0
+loneliness,社会、行为及生命历程,Loneliness,binary,baseline_instance_0
+manual_work,社会、行为及生命历程,Heavy manual work,categorical,baseline_instance_0
+maternal_smoking,社会、行为及生命历程,Maternal smoking around birth,binary,baseline_instance_0
+mobility,社会、行为及生命历程,Log-one-plus birth-to-baseline-residence straight-line distance,continuous,BASELINE_I0_GB_NET_DISTANCE_KM_20261021
+moderate_days,社会、行为及生命历程,Moderate activity days per week,continuous,baseline_instance_0
+nap,社会、行为及生命历程,Daytime napping,categorical,baseline_instance_0
+oily_fish,社会、行为及生命历程,Oily fish intake frequency,categorical,baseline_instance_0
+participation_adult_education,社会、行为及生命历程,Adult-education group participation,binary,baseline_instance_0
+participation_other,社会、行为及生命历程,Other group participation,binary,baseline_instance_0
+participation_religious,社会、行为及生命历程,Religious-group participation,binary,baseline_instance_0
+qualification,社会、行为及生命历程,Highest educational qualification,categorical,baseline_instance_0
+raw_veg,社会、行为及生命历程,Raw vegetable intake,continuous,baseline_instance_0
+sleep_hours,社会、行为及生命历程,Sleep duration,continuous,baseline_instance_0
+townsend,社会、行为及生命历程,Townsend deprivation index at recruitment,continuous,baseline_instance_0
+tv_hours,社会、行为及生命历程,Television viewing per day,continuous,baseline_instance_0
+vehicles,社会、行为及生命历程,Household vehicle availability,categorical,baseline_instance_0
+visits,社会、行为及生命历程,Visits with friends or family,categorical,baseline_instance_0
+walking_days,社会、行为及生命历程,Walking days per week,continuous,baseline_instance_0
+work_hours,社会、行为及生命历程,Working hours per week,continuous,baseline_instance_0
+
