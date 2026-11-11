@@ -143,12 +143,12 @@ run_in_private_context <- function(context) {
             if (!isTRUE(compat$original_columns_identical) || compat$N != 501937 || compat$source_field != "p1767_i0" || 
                 compat$source_instance != 0 || compat$added_column != "adopted" || compat$unmatched_N != 1 || info$size != 
                 linear_config$adopted_compat_all_bytes || floor(as.numeric(info$mtime)) != linear_config$adopted_compat_all_mtime) stop("Full compatible input provenance/size/mtime conflicts; no rebuilding or fill-zero")
-            cat("FULL_ALL_INPUT=Huang authenticated adoption-only compatible copy; original full population, no education/TDI filtering\n")
+            cat("FULL_ALL_INPUT=Verified adoption-compatible input; original full population, no education/TDI filtering\n")
         }
         pins <- linear_config$source_sha256
         for (n in names(pins)) {
             f <- file.path(source_root, "f", n)
-            if (!file.exists(f) || digest::digest(file = f, algo = "sha256") != pins[[n]]) stop("Huang source pin missing/changed: ", 
+            if (!file.exists(f) || digest::digest(file = f, algo = "sha256") != pins[[n]]) stop("Source integrity check failed: ",
                 f)
         }
         if (digest::digest(file = file.path(package, "code", "source0common.R"), algo = "sha256") != pins[["0.common.R"]]) stop("Immutable helper SHA conflict")

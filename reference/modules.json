@@ -27,8 +27,8 @@
     "private_literal_count": 2
   },
   {
-    "file": "analysis/Figure3_subgroups.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_subgroups.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "v3_tdi_cuts",
@@ -41,8 +41,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_adjustment.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_adjustment.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "assert",
@@ -66,8 +66,8 @@
     "private_literal_count": 3
   },
   {
-    "file": "analysis/Figure3_incident_sources.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_sources.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ip_source_ids",
@@ -85,8 +85,8 @@
     "private_literal_count": 8
   },
   {
-    "file": "analysis/Figure3_cox.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_cox.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ip_cox_assert",
@@ -105,8 +105,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_standardization.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_standardization.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "assert",
@@ -121,8 +121,8 @@
     "private_literal_count": 3
   },
   {
-    "file": "analysis/Figure3_prediction_curves.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_prediction_curves.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "assert",
@@ -230,7 +230,9 @@
     "file": "analysis/Supplementary_shapes.R",
     "scope": "Supplementary",
     "mode": "FUNCTION_LIBRARY",
-    "functions": "run_in_private_context",
+    "functions": [
+      "run_in_private_context"
+    ],
     "private_literal_count": 0
   },
   {
@@ -248,11 +250,10 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_common.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_common.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
-      "%||%",
       "bi_assert",
       "bi_stamp",
       "bi_num",
@@ -281,8 +282,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_diabetes.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_diabetes.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ev_dm_contract_example",
@@ -297,8 +298,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_diabetes_prior.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_diabetes_prior.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ev_diabetes_prior_specs",
@@ -311,8 +312,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_exact.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_exact.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "bi_isa_codes",
@@ -336,8 +337,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure3_incident_hospital.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_hospital.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ev_inc_date",
@@ -365,8 +366,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_linear.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_linear.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "as_num",
@@ -382,8 +383,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_operation.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_operation.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ev_operation_prior",
@@ -393,8 +394,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure3_incident_provenance.R",
-    "scope": "Figure3",
+    "file": "analysis/SupplementaryFigure2_incident_provenance.R",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ev_prov_missing",
@@ -414,8 +415,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_screen_prepare.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_screen_prepare.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_p_assert",
@@ -438,8 +439,8 @@
     "private_literal_count": 8
   },
   {
-    "file": "analysis/Figure4_single_screen_a_reuse.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_screen_a_reuse.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_a_assert",
@@ -458,8 +459,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_screen_outcome.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_screen_outcome.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_y_stop",
@@ -488,8 +489,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure4_single_screen_aj_backend.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_screen_aj_backend.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_aj_status",
@@ -502,8 +503,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_screen_worker.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_screen_worker.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_w_assert",
@@ -522,8 +523,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_prepare.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_prepare.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_p_assert",
@@ -546,8 +547,8 @@
     "private_literal_count": 8
   },
   {
-    "file": "analysis/Figure4_single_refinement_a_reuse.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_a_reuse.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_a_assert",
@@ -566,8 +567,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_outcome.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_outcome.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_y_stop",
@@ -596,8 +597,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure4_single_refinement_aj_backend.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_aj_backend.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_aj_status",
@@ -610,8 +611,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_worker.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_worker.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_w_assert",
@@ -636,8 +637,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_panel.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_panel.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_load",
@@ -647,8 +648,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_a_task_cache.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_a_task_cache.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "b16_a_cache_assert",
@@ -667,8 +668,8 @@
     "private_literal_count": 2
   },
   {
-    "file": "analysis/Figure4_single_refinement_a_derived_reader.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_a_derived_reader.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "b16_a_derived_function_sha",
@@ -678,8 +679,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "analysis/Figure4_single_refinement_incremental_a.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_incremental_a.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "b9_a_put",
@@ -698,8 +699,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure4_single_refinement_ihd_pooling.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_ihd_pooling.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_m_columns",
@@ -710,8 +711,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_center_strata.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_center_strata.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_ce_method_spec",
@@ -733,15 +734,17 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_single_refinement_ihd_sensitivity.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_refinement_ihd_sensitivity.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
-    "functions": "run_in_private_context",
+    "functions": [
+      "run_in_private_context"
+    ],
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_protein_warning_helpers.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_protein_warning_helpers.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "rw_assert",
@@ -764,8 +767,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_protein_warning_policy.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_protein_warning_policy.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "p2_policy_spec",
@@ -783,8 +786,8 @@
     "private_literal_count": 6
   },
   {
-    "file": "analysis/Figure4_protein_warning_worker.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_protein_warning_worker.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "emit",
@@ -793,8 +796,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "analysis/Figure4_single_input_adapter.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_input_adapter.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "v5_assert",
@@ -834,8 +837,8 @@
     "private_literal_count": 14
   },
   {
-    "file": "analysis/Figure4_single_completion.R",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_single_completion.R",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "new_json",
@@ -846,8 +849,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_inputs.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_inputs.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -864,8 +867,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "analysis/Figure5_body_coordinates.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_body_coordinates.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "body_tqe_assert",
@@ -895,8 +898,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_body_distribution.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_body_distribution.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "body_pmm_revision",
@@ -919,8 +922,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_body_diagnostics.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_body_diagnostics.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "body_tqeD_assert",
@@ -931,8 +934,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_metabolite_percentage.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_metabolite_percentage.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "nmr23591_assert",
@@ -951,8 +954,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_metabolite_ratio.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_metabolite_ratio.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "nmr23435_assert",
@@ -971,8 +974,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_composition_blocks.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_composition_blocks.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "s44_nmr_fields",
@@ -982,8 +985,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_composition_A.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_composition_A.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "nmrA_assert",
@@ -1016,8 +1019,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_composition_diagnostics.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_composition_diagnostics.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "nmrD_moments",
@@ -1033,8 +1036,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_product_runtime.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_product_runtime.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "nmr_install_product_runtime",
@@ -1044,8 +1047,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_reverse_order.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_reverse_order.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "omics_product_stream",
@@ -1054,8 +1057,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_centre_basis.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_centre_basis.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "s44yc_assert",
@@ -1066,8 +1069,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_domain_kernel.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_domain_kernel.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "new121_abort",
@@ -1083,8 +1086,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_Y_prediction.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_Y_prediction.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "new121_y_assert",
@@ -1100,8 +1103,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_input_functions.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_input_functions.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "c39_assert",
@@ -1129,8 +1132,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure5_model_functions.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_model_functions.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "c39_assert",
@@ -1150,8 +1153,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_integration.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_integration.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "c39_num_assert",
@@ -1168,8 +1171,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_ethnicity.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_ethnicity.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "c39_uy_assert",
@@ -1184,8 +1187,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_BMI_generation.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_BMI_generation.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "c39_loga_assert",
@@ -1204,8 +1207,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_A_common.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_A_common.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "fd_assert",
@@ -1225,8 +1228,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_A_joint.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_A_joint.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "fd_validate_members",
@@ -1244,8 +1247,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_fast_prediction.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_fast_prediction.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "fd_fp_assert",
@@ -1259,8 +1262,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_centre_baseline.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_centre_baseline.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_ce_method_spec",
@@ -1282,8 +1285,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_outcome.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_outcome.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "ff_y_stop",
@@ -1312,8 +1315,8 @@
     "private_literal_count": 4
   },
   {
-    "file": "analysis/Figure5_protein_fit.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_protein_fit.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "pry_assert",
@@ -1336,8 +1339,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_protein_predict.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_protein_predict.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "pry_predict_assert",
@@ -1362,8 +1365,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_protein_A_reuse.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_protein_A_reuse.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "s44pr_a_fail",
@@ -1454,8 +1457,8 @@
     "private_literal_count": 2
   },
   {
-    "file": "analysis/Figure6_bulk.R",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_bulk.R",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "write_new",
@@ -1472,8 +1475,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure6_pseudobulk.R",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_pseudobulk.R",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "env_or",
@@ -1508,8 +1511,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "analysis/Figure4_selection.py",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_selection.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "read",
@@ -1531,8 +1534,8 @@
     "private_literal_count": 2
   },
   {
-    "file": "analysis/Figure4_correlations.py",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_correlations.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "read",
@@ -1551,8 +1554,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure4_refinement_FDR.py",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_refinement_FDR.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -1563,8 +1566,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "analysis/Figure4_warning_summary.py",
-    "scope": "Figure4",
+    "file": "analysis/Figure3_warning_summary.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "require",
@@ -1635,8 +1638,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure6_sample_QC.py",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_sample_QC.py",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha256_file",
@@ -1654,8 +1657,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure6_CAD_stream.py",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_CAD_stream.py",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "emit",
@@ -1671,8 +1674,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure6_embeddings.py",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_embeddings.py",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -1704,8 +1707,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure3_forests.py",
-    "scope": "Figure3",
+    "file": "figures/SupplementaryFigure2_forests.py",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -1722,8 +1725,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure3_curves.py",
-    "scope": "Figure3",
+    "file": "figures/SupplementaryFigure2_curves.py",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "main",
@@ -1732,8 +1735,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure3_subgroups.py",
-    "scope": "Figure3",
+    "file": "figures/SupplementaryFigure2_subgroups.py",
+    "scope": "SupplementaryFigure2",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -1747,8 +1750,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure4_circos.py",
-    "scope": "Figure4",
+    "file": "figures/Figure3_circos.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "sha",
@@ -1763,8 +1766,8 @@
     "private_literal_count": 1
   },
   {
-    "file": "figures/Figure4_circos_geometry.py",
-    "scope": "Figure4",
+    "file": "figures/Figure3_circos_geometry.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "apply_effect_palette",
@@ -1784,8 +1787,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure4_quadrant.py",
-    "scope": "Figure4",
+    "file": "figures/Figure3_quadrant.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "module",
@@ -1799,8 +1802,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure4_labels.py",
-    "scope": "Figure4",
+    "file": "figures/Figure3_labels.py",
+    "scope": "Figure3",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "read",
@@ -1813,73 +1816,64 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure6_features.py",
-    "scope": "Figure6",
-    "mode": "FUNCTION_LIBRARY",
+    "file": "figures/Figure5_features.py",
+    "scope": "Figure5",
+    "mode": "SAVED_INPUT_RENDERER",
     "functions": [
       "sha",
       "write_json",
-      "main",
-      "run_in_private_context"
-    ],
-    "private_literal_count": 0
+      "main"
+    ]
   },
   {
-    "file": "figures/Figure6_UMAP.py",
-    "scope": "Figure6",
-    "mode": "FUNCTION_LIBRARY",
+    "file": "figures/Figure5_UMAP.py",
+    "scope": "Figure5",
+    "mode": "SAVED_INPUT_RENDERER",
     "functions": [
       "sha",
       "write_json_new",
-      "main",
-      "run_in_private_context"
-    ],
-    "private_literal_count": 0
+      "main"
+    ]
   },
   {
-    "file": "figures/Figure6_spacing.py",
-    "scope": "Figure6",
-    "mode": "FUNCTION_LIBRARY",
-    "functions": [
-      "digest",
-      "main",
-      "run_in_private_context"
-    ],
-    "private_literal_count": 0
+    "file": "figures/Figure5_spacing.py",
+    "scope": "Figure5",
+    "mode": "SAVED_INPUT_RENDERER",
+    "functions": []
   },
   {
-    "file": "figures/Figure6_donors.py",
-    "scope": "Figure6",
-    "mode": "FUNCTION_LIBRARY",
+    "file": "figures/Figure5_donors.py",
+    "scope": "Figure5",
+    "mode": "SAVED_INPUT_RENDERER",
     "functions": [
+      "require",
       "sha",
-      "replace_one",
-      "baseline_source",
-      "styled_source",
-      "capture_geometry",
-      "check_visible_text",
-      "main",
-      "run_in_private_context"
-    ],
-    "private_literal_count": 0
+      "jitter",
+      "configure_style",
+      "save_figure",
+      "donor_plot",
+      "main"
+    ]
   },
   {
-    "file": "analysis/Figure6_bulk_render.R",
-    "scope": "Figure6",
+    "file": "analysis/Figure5_bulk_render.R",
+    "scope": "Figure5",
     "mode": "FUNCTION_LIBRARY",
-    "functions": "run_in_private_context",
+    "functions": [
+      "run_in_private_context"
+    ],
     "private_literal_count": 0
   },
   {
     "file": "analysis/single_aj.c",
-    "scope": "Figure4",
+    "scope": "Figure3",
     "mode": "NUMERICAL_SOURCE",
     "functions": [],
     "private_literal_count": 0
   },
   {
     "file": "analysis/joint_exponential.c",
-    "scope": "Figure5",
+    "scope": "Figure4",
     "mode": "NUMERICAL_SOURCE",
     "functions": [],
     "private_literal_count": 0
@@ -2019,8 +2013,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_protein_worker.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_protein_worker.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "progress",
@@ -2029,8 +2023,8 @@
     "private_literal_count": 0
   },
   {
-    "file": "analysis/Figure5_protein_runtime.R",
-    "scope": "Figure5",
+    "file": "analysis/Figure4_protein_runtime.R",
+    "scope": "Figure4",
     "mode": "FUNCTION_LIBRARY",
     "functions": [
       "pr_assert",
@@ -2069,16 +2063,39 @@
     "private_literal_count": 0
   },
   {
-    "file": "figures/Figure5_heatmap.py",
-    "scope": "Figure5",
-    "mode": "FUNCTION_LIBRARY",
+    "file": "figures/Figure4_heatmap.py",
+    "scope": "Figure4",
+    "mode": "SAVED_INPUT_RENDERER",
     "functions": [
-      "sha",
-      "read",
-      "stars",
-      "main",
-      "run_in_private_context"
-    ],
-    "private_literal_count": 0
+      "read_rows",
+      "number",
+      "fmt",
+      "saved_q",
+      "validate",
+      "render",
+      "main"
+    ]
+  },
+  {
+    "file": "figures/Figure3_contrasts.py",
+    "scope": "Figure3",
+    "mode": "SAVED_INPUT_RENDERER",
+    "functions": [
+      "read_rows",
+      "number",
+      "load",
+      "band",
+      "render",
+      "main"
+    ]
+  },
+  {
+    "file": "figures/Figure5_bulk.R",
+    "scope": "Figure5",
+    "mode": "SAVED_INPUT_RENDERER",
+    "functions": [
+      "figure5_transcriptome_theme",
+      "draw_Figure5_bulk"
+    ]
   }
 ]

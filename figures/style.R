@@ -26,3 +26,19 @@ save_panel <- function(plot, out, name, width = 180, height = 110) {
   }
 }
 saved_stars <- function(q) ifelse(!is.finite(q), "", ifelse(q < .001, "***", ifelse(q < .01, "**", ifelse(q < .05, "*", ""))))
+
+# Export supplied plotting sheets and call a standalone renderer.
+render_saved_python <- function(script, tables, out, arguments, config) {
+  source_dir <- file.path(out, "source")
+  if (file.exists(source_dir) || !dir.create(source_dir)) stop("Source export directory must be new")
+  for (name in names(tables)) {
+    utils::write.csv(tables[[name]], file.path(source_dir, paste0(name,".csv")),
+      row.names=FALSE, na="NA", fileEncoding="UTF-8")
+  }
+  python <- Sys.getenv("BIRTH_PYTHON", "python3")
+  renderer <- file.path(config$code_root, "figures", script)
+  args <- c(renderer, arguments(source_dir), "--out", file.path(out,"figure"))
+  status <- system2(python, vapply(args, shQuote, character(1)))
+  if (!identical(status, 0L)) stop("Figure renderer failed; original inputs were not changed")
+  invisible(file.path(out,"figure"))
+}

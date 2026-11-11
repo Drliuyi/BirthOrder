@@ -1,4 +1,4 @@
-# Huang-lab path convention. Source this file on the authorized analysis machine.
+# Configurable input, code and output locations. Source before running analyses.
 # No data, output, secret, or credential belongs inside the code repository.
 export DIR0="${DIR0:-/mnt/d}"
 export SCRIPT_ROOT="${SCRIPT_ROOT:-$DIR0/scripts}"
@@ -12,3 +12,4 @@ export PROTEIN_RDS="${PROTEIN_RDS:-$PHEDIR/Rdata/prot.rds}"
 export BIRTH_RESULTS="${BIRTH_RESULTS:-$UKB_OUT/birth_order/results}"
 export BIRTH_FROZEN="${BIRTH_FROZEN:-$UKB_OUT/birth_order/frozen}"
 export BIRTH_SOURCE="${BIRTH_SOURCE:-$UKB_OUT/birth_order/source}"
+export BIRTH_PYTHON="${BIRTH_PYTHON:-python3}"

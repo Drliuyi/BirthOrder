@@ -1,5 +1,5 @@
-# Figure 3: sequential adjustment, full-follow-up Cox and probability gradients.
-analyse_Figure3 <- function(config, code_root) {
+# Supplementary Figure 2: adjustment, full-follow-up Cox and probability gradients.
+analyse_SupplementaryFigure2 <- function(config, code_root) {
   assert(file.exists(config$paths$incident), "Authoritative full-follow-up incident risk sets are required before starting any fits")
   risks <- readRDS(config$paths$incident)
   assert(is.data.frame(risks) && all(c("eid", "outcome", "entry", "exit", "event", "eligible") %in% names(risks)), "Invalid incident input schema; no models started")
